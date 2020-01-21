@@ -1,0 +1,16 @@
+{
+  "target": {
+    "xuan": {
+      "ip": "192.168.0.76",
+      "host": "8051"
+    },
+    "test": {
+      "ip": "localhost",
+      "host": "3000",
+      "data-url": "mock/swagger"
+    }
+  },
+  "doc-url": "swagger-ui.html",
+  "data-url": "v2/api-docs",
+  "query": "group=web"
+}

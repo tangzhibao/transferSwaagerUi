@@ -1,0 +1,2689 @@
+{
+  "HttpResult«List«RegionDTO»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "description": ""
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«上传文件信息»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "extension": {
+          "type": "string",
+          "description": "文件扩展名"
+        },
+        "fileName": {
+          "type": "string",
+          "description": "文件名称"
+        },
+        "originalFilename": {
+          "type": "string",
+          "description": "文件原始名称"
+        },
+        "size": {
+          "type": "number",
+          "description": "文件大小"
+        },
+        "times": {
+          "type": "number",
+          "description": "媒体文件播放时长"
+        },
+        "url": {
+          "type": "string",
+          "description": "文件路径"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«业务员»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "orderFinish": {
+          "type": "number",
+          "description": "已完成订单, 新增不传"
+        },
+        "orderOngoing": {
+          "type": "number",
+          "description": "跟踪中订单, 新增不传"
+        },
+        "orderTotal": {
+          "type": "number",
+          "description": "跟踪订单总数"
+        },
+        "region": {
+          "type": "string",
+          "description": "地区"
+        },
+        "status": {
+          "type": "number",
+          "description": "0下线 1上线, 新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«优惠码»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "code": {
+          "type": "string",
+          "description": "兑换码"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "使用时间"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "昵称"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号"
+        },
+        "salesName": {
+          "type": "string",
+          "description": "活动标题"
+        },
+        "status": {
+          "type": "number",
+          "description": "0未核销 1已核销"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«优惠码活动»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "beginTime": {
+          "type": "string",
+          "description": "开始时间"
+        },
+        "endTime": {
+          "type": "string",
+          "description": "结束时间"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "minusMoney": {
+          "type": "number",
+          "description": "立减"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "products": {
+          "type": "array",
+          "description": "适用产品id",
+          "items": {
+            "type": "number",
+            "description": ""
+          }
+        },
+        "status": {
+          "type": "number",
+          "description": "0:下线 1:上线 新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«商品»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "description": {
+          "type": "string",
+          "description": "服务说明"
+        },
+        "feature": {
+          "type": "string",
+          "description": "产品特色"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "imgUrl": {
+          "type": "string",
+          "description": "主图"
+        },
+        "info": {
+          "type": "string",
+          "description": "套餐详情"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "新增不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "price": {
+          "type": "number",
+          "description": "价格"
+        },
+        "productPics": {
+          "type": "array",
+          "description": "图片数组",
+          "items": {
+            "id": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "productId": {
+              "type": "number",
+              "description": "商品id"
+            },
+            "sort": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "url": {
+              "type": "string",
+              "description": "图片链接"
+            }
+          }
+        },
+        "qidai": {
+          "type": "number",
+          "description": "脐带"
+        },
+        "sort": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "status": {
+          "type": "number",
+          "description": "0:下架 1:上架 新增不传"
+        },
+        "storeYear": {
+          "type": "number",
+          "description": "储存年限"
+        },
+        "taiPai": {
+          "type": "number",
+          "description": "胎盘"
+        },
+        "yangMo": {
+          "type": "number",
+          "description": "羊膜"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«导航栏»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "iconOnClick": {
+          "type": "string",
+          "description": "点击icon"
+        },
+        "iconUnClick": {
+          "type": "string",
+          "description": "未点击icon"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "sort": {
+          "type": "number",
+          "description": "新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«用户»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "avatar": {
+          "type": "string",
+          "description": "头像"
+        },
+        "cost": {
+          "type": "number",
+          "description": "消费金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "注册时间"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "昵称"
+        },
+        "registerFrom": {
+          "type": "string",
+          "description": "注册方式"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«List«订单»»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "couponCode": {
+          "type": "string",
+          "description": "优惠码, 新增不传"
+        },
+        "couponId": {
+          "type": "number",
+          "description": "优惠券id"
+        },
+        "couponPrice": {
+          "type": "number",
+          "description": "优惠金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "下单时间, 新增不传"
+        },
+        "employeeId": {
+          "type": "number",
+          "description": "业务员id, 新增不传"
+        },
+        "employeeName": {
+          "type": "string",
+          "description": "业务员名称, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号，新增不传"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "用户昵称，新增不传"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号, 新增不传"
+        },
+        "paymentId": {
+          "type": "number",
+          "description": "付款信息id, 新增不传"
+        },
+        "paymentNo": {
+          "type": "string",
+          "description": "支付单号, 新增不传"
+        },
+        "paymentPrice": {
+          "type": "number",
+          "description": "付款金额, 新增不传"
+        },
+        "paymentSource": {
+          "type": "number",
+          "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+        },
+        "paymentTime": {
+          "type": "string",
+          "description": "支付时间, 新增不传"
+        },
+        "productId": {
+          "type": "number",
+          "description": "商品id"
+        },
+        "productImg": {
+          "type": "string",
+          "description": "商品图片, 新增不传"
+        },
+        "productName": {
+          "type": "string",
+          "description": "商品名称, 新增不传"
+        },
+        "productPrice": {
+          "type": "number",
+          "description": "商品价格, 新增不传"
+        },
+        "purchaseFrom": {
+          "type": "string",
+          "description": "渠道"
+        },
+        "remark": {
+          "type": "string",
+          "description": "关闭原因, 新增不传"
+        },
+        "status": {
+          "type": "number",
+          "description": "订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«OrderVO»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "contractDTOS": {
+          "type": "array",
+          "items": {
+            "code": {
+              "type": "string",
+              "description": "编号, 新增不传"
+            },
+            "id": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "lastModifiedDate": {
+              "type": "string",
+              "description": "签署时间, 不传"
+            },
+            "name": {
+              "type": "string",
+              "description": "签署人, 新增不传"
+            },
+            "orderId": {
+              "type": "number",
+              "description": "订单id"
+            },
+            "status": {
+              "type": "number",
+              "description": "状态 0未签署 1正常 2作废, 新增不传"
+            },
+            "url": {
+              "type": "string",
+              "description": "链接, 新增不传"
+            }
+          }
+        },
+        "orderDTO": {
+          "type": "object",
+          "items": {
+            "couponCode": {
+              "type": "string",
+              "description": "优惠码, 新增不传"
+            },
+            "couponId": {
+              "type": "number",
+              "description": "优惠券id"
+            },
+            "couponPrice": {
+              "type": "number",
+              "description": "优惠金额"
+            },
+            "createdDate": {
+              "type": "string",
+              "description": "下单时间, 新增不传"
+            },
+            "employeeId": {
+              "type": "number",
+              "description": "业务员id, 新增不传"
+            },
+            "employeeName": {
+              "type": "string",
+              "description": "业务员名称, 新增不传"
+            },
+            "id": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "mobile": {
+              "type": "string",
+              "description": "手机号，新增不传"
+            },
+            "nickname": {
+              "type": "string",
+              "description": "用户昵称，新增不传"
+            },
+            "orderNo": {
+              "type": "string",
+              "description": "订单号, 新增不传"
+            },
+            "paymentId": {
+              "type": "number",
+              "description": "付款信息id, 新增不传"
+            },
+            "paymentNo": {
+              "type": "string",
+              "description": "支付单号, 新增不传"
+            },
+            "paymentPrice": {
+              "type": "number",
+              "description": "付款金额, 新增不传"
+            },
+            "paymentSource": {
+              "type": "number",
+              "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+            },
+            "paymentTime": {
+              "type": "string",
+              "description": "支付时间, 新增不传"
+            },
+            "productId": {
+              "type": "number",
+              "description": "商品id"
+            },
+            "productImg": {
+              "type": "string",
+              "description": "商品图片, 新增不传"
+            },
+            "productName": {
+              "type": "string",
+              "description": "商品名称, 新增不传"
+            },
+            "productPrice": {
+              "type": "number",
+              "description": "商品价格, 新增不传"
+            },
+            "purchaseFrom": {
+              "type": "string",
+              "description": "渠道"
+            },
+            "remark": {
+              "type": "string",
+              "description": "关闭原因, 新增不传"
+            },
+            "status": {
+              "type": "number",
+              "description": "订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭"
+            }
+          }
+        },
+        "userInfoDTO": {
+          "type": "object",
+          "items": {
+            "city": {
+              "type": "string",
+              "description": "市, 新增不传"
+            },
+            "district": {
+              "type": "string",
+              "description": "地区, 新增不传"
+            },
+            "edc": {
+              "type": "string",
+              "description": "预产期, 新增不传"
+            },
+            "hospital": {
+              "type": "string",
+              "description": "医院, 新增不传"
+            },
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "idCard": {
+              "type": "string",
+              "description": "身份证"
+            },
+            "lastModifiedDate": {
+              "type": "string",
+              "description": "最后修改时间, 不传"
+            },
+            "mobile": {
+              "type": "string",
+              "description": "手机号"
+            },
+            "mobileUserId": {
+              "type": "number",
+              "description": "用户id"
+            },
+            "name": {
+              "type": "string",
+              "description": "用户名称"
+            },
+            "orderId": {
+              "type": "number",
+              "description": "订单id"
+            },
+            "orderNo": {
+              "type": "string",
+              "description": "订单号"
+            },
+            "province": {
+              "type": "string",
+              "description": "省, 新增不传"
+            },
+            "userReports": {
+              "type": "array",
+              "description": "产检报告, 不传",
+              "items": {
+                "id": {
+                  "type": "number",
+                  "description": ""
+                },
+                "url": {
+                  "type": "string",
+                  "description": ""
+                },
+                "userInfoId": {
+                  "type": "number",
+                  "description": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«Void»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«string»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "string",
+      "description": ""
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«业务员»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "orderFinish": {
+          "type": "number",
+          "description": "已完成订单, 新增不传"
+        },
+        "orderOngoing": {
+          "type": "number",
+          "description": "跟踪中订单, 新增不传"
+        },
+        "orderTotal": {
+          "type": "number",
+          "description": "跟踪订单总数"
+        },
+        "region": {
+          "type": "string",
+          "description": "地区"
+        },
+        "status": {
+          "type": "number",
+          "description": "0下线 1上线, 新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«优惠码活动»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "beginTime": {
+          "type": "string",
+          "description": "开始时间"
+        },
+        "endTime": {
+          "type": "string",
+          "description": "结束时间"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "minusMoney": {
+          "type": "number",
+          "description": "立减"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "products": {
+          "type": "array",
+          "description": "适用产品id",
+          "items": {
+            "type": "number",
+            "description": ""
+          }
+        },
+        "status": {
+          "type": "number",
+          "description": "0:下线 1:上线 新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«合同»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "code": {
+          "type": "string",
+          "description": "编号, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "签署时间, 不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "签署人, 新增不传"
+        },
+        "orderId": {
+          "type": "number",
+          "description": "订单id"
+        },
+        "status": {
+          "type": "number",
+          "description": "状态 0未签署 1正常 2作废, 新增不传"
+        },
+        "url": {
+          "type": "string",
+          "description": "链接, 新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«商品»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "description": {
+          "type": "string",
+          "description": "服务说明"
+        },
+        "feature": {
+          "type": "string",
+          "description": "产品特色"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "imgUrl": {
+          "type": "string",
+          "description": "主图"
+        },
+        "info": {
+          "type": "string",
+          "description": "套餐详情"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "新增不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "price": {
+          "type": "number",
+          "description": "价格"
+        },
+        "productPics": {
+          "type": "array",
+          "description": "图片数组",
+          "items": {
+            "id": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "productId": {
+              "type": "number",
+              "description": "商品id"
+            },
+            "sort": {
+              "type": "number",
+              "description": "新增不传"
+            },
+            "url": {
+              "type": "string",
+              "description": "图片链接"
+            }
+          }
+        },
+        "qidai": {
+          "type": "number",
+          "description": "脐带"
+        },
+        "sort": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "status": {
+          "type": "number",
+          "description": "0:下架 1:上架 新增不传"
+        },
+        "storeYear": {
+          "type": "number",
+          "description": "储存年限"
+        },
+        "taiPai": {
+          "type": "number",
+          "description": "胎盘"
+        },
+        "yangMo": {
+          "type": "number",
+          "description": "羊膜"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«导航栏»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "iconOnClick": {
+          "type": "string",
+          "description": "点击icon"
+        },
+        "iconUnClick": {
+          "type": "string",
+          "description": "未点击icon"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "名称"
+        },
+        "sort": {
+          "type": "number",
+          "description": "新增不传"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«用户档案»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "city": {
+          "type": "string",
+          "description": "市, 新增不传"
+        },
+        "district": {
+          "type": "string",
+          "description": "地区, 新增不传"
+        },
+        "edc": {
+          "type": "string",
+          "description": "预产期, 新增不传"
+        },
+        "hospital": {
+          "type": "string",
+          "description": "医院, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "idCard": {
+          "type": "string",
+          "description": "身份证"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "最后修改时间, 不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "mobileUserId": {
+          "type": "number",
+          "description": "用户id"
+        },
+        "name": {
+          "type": "string",
+          "description": "用户名称"
+        },
+        "orderId": {
+          "type": "number",
+          "description": "订单id"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号"
+        },
+        "province": {
+          "type": "string",
+          "description": "省, 新增不传"
+        },
+        "userReports": {
+          "type": "array",
+          "description": "产检报告, 不传",
+          "items": {
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "url": {
+              "type": "string",
+              "description": ""
+            },
+            "userInfoId": {
+              "type": "number",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«用户详情»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "mobileUserDTO": {
+          "type": "object",
+          "description": "用户信息",
+          "items": {
+            "avatar": {
+              "type": "string",
+              "description": "头像"
+            },
+            "cost": {
+              "type": "number",
+              "description": "消费金额"
+            },
+            "createdDate": {
+              "type": "string",
+              "description": "注册时间"
+            },
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "mobile": {
+              "type": "string",
+              "description": "手机号"
+            },
+            "nickname": {
+              "type": "string",
+              "description": "昵称"
+            },
+            "registerFrom": {
+              "type": "string",
+              "description": "注册方式"
+            }
+          }
+        },
+        "orderMobileVOList": {
+          "type": "array",
+          "description": "用户订单",
+          "items": {
+            "contractDate": {
+              "type": "string",
+              "description": "签署时间"
+            },
+            "contractId": {
+              "type": "number",
+              "description": "合同id"
+            },
+            "contractNo": {
+              "type": "string",
+              "description": "合同编号"
+            },
+            "contractPerson": {
+              "type": "string",
+              "description": "签署人"
+            },
+            "couponPrice": {
+              "type": "number",
+              "description": "优惠金额"
+            },
+            "createdDate": {
+              "type": "string",
+              "description": "下单时间"
+            },
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "mobile": {
+              "type": "string",
+              "description": "联系方式"
+            },
+            "orderNo": {
+              "type": "string",
+              "description": "订单号"
+            },
+            "paymentNo": {
+              "type": "string",
+              "description": "支付单号"
+            },
+            "paymentPrice": {
+              "type": "number",
+              "description": "实付付款金额"
+            },
+            "paymentSource": {
+              "type": "number",
+              "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+            },
+            "paymentTime": {
+              "type": "string",
+              "description": "支付时间"
+            },
+            "productImg": {
+              "type": "string",
+              "description": "商品图片"
+            },
+            "productName": {
+              "type": "string",
+              "description": "商品名称"
+            },
+            "productPrice": {
+              "type": "number",
+              "description": "商品价格, 新增不传"
+            },
+            "remark": {
+              "type": "string",
+              "description": "关闭原因"
+            },
+            "status": {
+              "type": "number",
+              "description": "订单状态"
+            }
+          }
+        },
+        "userInfoDTOList": {
+          "type": "array",
+          "description": "用户档案",
+          "items": {
+            "city": {
+              "type": "string",
+              "description": "市, 新增不传"
+            },
+            "district": {
+              "type": "string",
+              "description": "地区, 新增不传"
+            },
+            "edc": {
+              "type": "string",
+              "description": "预产期, 新增不传"
+            },
+            "hospital": {
+              "type": "string",
+              "description": "医院, 新增不传"
+            },
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "idCard": {
+              "type": "string",
+              "description": "身份证"
+            },
+            "lastModifiedDate": {
+              "type": "string",
+              "description": "最后修改时间, 不传"
+            },
+            "mobile": {
+              "type": "string",
+              "description": "手机号"
+            },
+            "mobileUserId": {
+              "type": "number",
+              "description": "用户id"
+            },
+            "name": {
+              "type": "string",
+              "description": "用户名称"
+            },
+            "orderId": {
+              "type": "number",
+              "description": "订单id"
+            },
+            "orderNo": {
+              "type": "string",
+              "description": "订单号"
+            },
+            "province": {
+              "type": "string",
+              "description": "省, 新增不传"
+            },
+            "userReports": {
+              "type": "array",
+              "description": "产检报告, 不传",
+              "items": {
+                "id": {
+                  "type": "number",
+                  "description": ""
+                },
+                "url": {
+                  "type": "string",
+                  "description": ""
+                },
+                "userInfoId": {
+                  "type": "number",
+                  "description": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "HttpResult«订单»": {
+    "code": {
+      "type": "number",
+      "description": ""
+    },
+    "data": {
+      "type": "object",
+      "items": {
+        "couponCode": {
+          "type": "string",
+          "description": "优惠码, 新增不传"
+        },
+        "couponId": {
+          "type": "number",
+          "description": "优惠券id"
+        },
+        "couponPrice": {
+          "type": "number",
+          "description": "优惠金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "下单时间, 新增不传"
+        },
+        "employeeId": {
+          "type": "number",
+          "description": "业务员id, 新增不传"
+        },
+        "employeeName": {
+          "type": "string",
+          "description": "业务员名称, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号，新增不传"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "用户昵称，新增不传"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号, 新增不传"
+        },
+        "paymentId": {
+          "type": "number",
+          "description": "付款信息id, 新增不传"
+        },
+        "paymentNo": {
+          "type": "string",
+          "description": "支付单号, 新增不传"
+        },
+        "paymentPrice": {
+          "type": "number",
+          "description": "付款金额, 新增不传"
+        },
+        "paymentSource": {
+          "type": "number",
+          "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+        },
+        "paymentTime": {
+          "type": "string",
+          "description": "支付时间, 新增不传"
+        },
+        "productId": {
+          "type": "number",
+          "description": "商品id"
+        },
+        "productImg": {
+          "type": "string",
+          "description": "商品图片, 新增不传"
+        },
+        "productName": {
+          "type": "string",
+          "description": "商品名称, 新增不传"
+        },
+        "productPrice": {
+          "type": "number",
+          "description": "商品价格, 新增不传"
+        },
+        "purchaseFrom": {
+          "type": "string",
+          "description": "渠道"
+        },
+        "remark": {
+          "type": "string",
+          "description": "关闭原因, 新增不传"
+        },
+        "status": {
+          "type": "number",
+          "description": "订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭"
+        }
+      }
+    },
+    "message": {
+      "type": "string",
+      "description": ""
+    },
+    "pagination": {
+      "type": "object",
+      "items": {
+        "page": {
+          "type": "number",
+          "description": ""
+        },
+        "size": {
+          "type": "number",
+          "description": ""
+        },
+        "total": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "OrderVO": {
+    "contractDTOS": {
+      "type": "array",
+      "items": {
+        "code": {
+          "type": "string",
+          "description": "编号, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "签署时间, 不传"
+        },
+        "name": {
+          "type": "string",
+          "description": "签署人, 新增不传"
+        },
+        "orderId": {
+          "type": "number",
+          "description": "订单id"
+        },
+        "status": {
+          "type": "number",
+          "description": "状态 0未签署 1正常 2作废, 新增不传"
+        },
+        "url": {
+          "type": "string",
+          "description": "链接, 新增不传"
+        }
+      }
+    },
+    "orderDTO": {
+      "type": "object",
+      "items": {
+        "couponCode": {
+          "type": "string",
+          "description": "优惠码, 新增不传"
+        },
+        "couponId": {
+          "type": "number",
+          "description": "优惠券id"
+        },
+        "couponPrice": {
+          "type": "number",
+          "description": "优惠金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "下单时间, 新增不传"
+        },
+        "employeeId": {
+          "type": "number",
+          "description": "业务员id, 新增不传"
+        },
+        "employeeName": {
+          "type": "string",
+          "description": "业务员名称, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号，新增不传"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "用户昵称，新增不传"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号, 新增不传"
+        },
+        "paymentId": {
+          "type": "number",
+          "description": "付款信息id, 新增不传"
+        },
+        "paymentNo": {
+          "type": "string",
+          "description": "支付单号, 新增不传"
+        },
+        "paymentPrice": {
+          "type": "number",
+          "description": "付款金额, 新增不传"
+        },
+        "paymentSource": {
+          "type": "number",
+          "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+        },
+        "paymentTime": {
+          "type": "string",
+          "description": "支付时间, 新增不传"
+        },
+        "productId": {
+          "type": "number",
+          "description": "商品id"
+        },
+        "productImg": {
+          "type": "string",
+          "description": "商品图片, 新增不传"
+        },
+        "productName": {
+          "type": "string",
+          "description": "商品名称, 新增不传"
+        },
+        "productPrice": {
+          "type": "number",
+          "description": "商品价格, 新增不传"
+        },
+        "purchaseFrom": {
+          "type": "string",
+          "description": "渠道"
+        },
+        "remark": {
+          "type": "string",
+          "description": "关闭原因, 新增不传"
+        },
+        "status": {
+          "type": "number",
+          "description": "订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭"
+        }
+      }
+    },
+    "userInfoDTO": {
+      "type": "object",
+      "items": {
+        "city": {
+          "type": "string",
+          "description": "市, 新增不传"
+        },
+        "district": {
+          "type": "string",
+          "description": "地区, 新增不传"
+        },
+        "edc": {
+          "type": "string",
+          "description": "预产期, 新增不传"
+        },
+        "hospital": {
+          "type": "string",
+          "description": "医院, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "idCard": {
+          "type": "string",
+          "description": "身份证"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "最后修改时间, 不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "mobileUserId": {
+          "type": "number",
+          "description": "用户id"
+        },
+        "name": {
+          "type": "string",
+          "description": "用户名称"
+        },
+        "orderId": {
+          "type": "number",
+          "description": "订单id"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号"
+        },
+        "province": {
+          "type": "string",
+          "description": "省, 新增不传"
+        },
+        "userReports": {
+          "type": "array",
+          "description": "产检报告, 不传",
+          "items": {
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "url": {
+              "type": "string",
+              "description": ""
+            },
+            "userInfoId": {
+              "type": "number",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "Pagination": {
+    "page": {
+      "type": "number",
+      "description": ""
+    },
+    "size": {
+      "type": "number",
+      "description": ""
+    },
+    "total": {
+      "type": "number",
+      "description": ""
+    }
+  },
+  "RegionDTO": {
+    "children": {
+      "type": "array",
+      "items": {
+        "description": ""
+      }
+    },
+    "code": {
+      "type": "string",
+      "description": ""
+    },
+    "name": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "UserReportDTO": {
+    "id": {
+      "type": "number",
+      "description": ""
+    },
+    "url": {
+      "type": "string",
+      "description": ""
+    },
+    "userInfoId": {
+      "type": "number",
+      "description": ""
+    }
+  },
+  "上传文件信息": {
+    "extension": {
+      "type": "string",
+      "description": "文件扩展名"
+    },
+    "fileName": {
+      "type": "string",
+      "description": "文件名称"
+    },
+    "originalFilename": {
+      "type": "string",
+      "description": "文件原始名称"
+    },
+    "size": {
+      "type": "number",
+      "description": "文件大小"
+    },
+    "times": {
+      "type": "number",
+      "description": "媒体文件播放时长"
+    },
+    "url": {
+      "type": "string",
+      "description": "文件路径"
+    }
+  },
+  "业务员": {
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "mobile": {
+      "type": "string",
+      "description": "手机号"
+    },
+    "name": {
+      "type": "string",
+      "description": "名称"
+    },
+    "orderFinish": {
+      "type": "number",
+      "description": "已完成订单, 新增不传"
+    },
+    "orderOngoing": {
+      "type": "number",
+      "description": "跟踪中订单, 新增不传"
+    },
+    "orderTotal": {
+      "type": "number",
+      "description": "跟踪订单总数"
+    },
+    "region": {
+      "type": "string",
+      "description": "地区"
+    },
+    "status": {
+      "type": "number",
+      "description": "0下线 1上线, 新增不传"
+    }
+  },
+  "优惠码": {
+    "code": {
+      "type": "string",
+      "description": "兑换码"
+    },
+    "id": {
+      "type": "number",
+      "description": ""
+    },
+    "lastModifiedDate": {
+      "type": "string",
+      "description": "使用时间"
+    },
+    "mobile": {
+      "type": "string",
+      "description": "手机号"
+    },
+    "nickname": {
+      "type": "string",
+      "description": "昵称"
+    },
+    "orderNo": {
+      "type": "string",
+      "description": "订单号"
+    },
+    "salesName": {
+      "type": "string",
+      "description": "活动标题"
+    },
+    "status": {
+      "type": "number",
+      "description": "0未核销 1已核销"
+    }
+  },
+  "优惠码活动": {
+    "beginTime": {
+      "type": "string",
+      "description": "开始时间"
+    },
+    "endTime": {
+      "type": "string",
+      "description": "结束时间"
+    },
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "minusMoney": {
+      "type": "number",
+      "description": "立减"
+    },
+    "name": {
+      "type": "string",
+      "description": "名称"
+    },
+    "products": {
+      "type": "array",
+      "description": "适用产品id",
+      "items": {
+        "type": "number",
+        "description": ""
+      }
+    },
+    "status": {
+      "type": "number",
+      "description": "0:下线 1:上线 新增不传"
+    }
+  },
+  "合同": {
+    "code": {
+      "type": "string",
+      "description": "编号, 新增不传"
+    },
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "lastModifiedDate": {
+      "type": "string",
+      "description": "签署时间, 不传"
+    },
+    "name": {
+      "type": "string",
+      "description": "签署人, 新增不传"
+    },
+    "orderId": {
+      "type": "number",
+      "description": "订单id"
+    },
+    "status": {
+      "type": "number",
+      "description": "状态 0未签署 1正常 2作废, 新增不传"
+    },
+    "url": {
+      "type": "string",
+      "description": "链接, 新增不传"
+    }
+  },
+  "商品": {
+    "description": {
+      "type": "string",
+      "description": "服务说明"
+    },
+    "feature": {
+      "type": "string",
+      "description": "产品特色"
+    },
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "imgUrl": {
+      "type": "string",
+      "description": "主图"
+    },
+    "info": {
+      "type": "string",
+      "description": "套餐详情"
+    },
+    "lastModifiedDate": {
+      "type": "string",
+      "description": "新增不传"
+    },
+    "name": {
+      "type": "string",
+      "description": "名称"
+    },
+    "price": {
+      "type": "number",
+      "description": "价格"
+    },
+    "productPics": {
+      "type": "array",
+      "description": "图片数组",
+      "items": {
+        "id": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "productId": {
+          "type": "number",
+          "description": "商品id"
+        },
+        "sort": {
+          "type": "number",
+          "description": "新增不传"
+        },
+        "url": {
+          "type": "string",
+          "description": "图片链接"
+        }
+      }
+    },
+    "qidai": {
+      "type": "number",
+      "description": "脐带"
+    },
+    "sort": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "status": {
+      "type": "number",
+      "description": "0:下架 1:上架 新增不传"
+    },
+    "storeYear": {
+      "type": "number",
+      "description": "储存年限"
+    },
+    "taiPai": {
+      "type": "number",
+      "description": "胎盘"
+    },
+    "yangMo": {
+      "type": "number",
+      "description": "羊膜"
+    }
+  },
+  "商品照片": {
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "productId": {
+      "type": "number",
+      "description": "商品id"
+    },
+    "sort": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "url": {
+      "type": "string",
+      "description": "图片链接"
+    }
+  },
+  "导航栏": {
+    "iconOnClick": {
+      "type": "string",
+      "description": "点击icon"
+    },
+    "iconUnClick": {
+      "type": "string",
+      "description": "未点击icon"
+    },
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "name": {
+      "type": "string",
+      "description": "名称"
+    },
+    "sort": {
+      "type": "number",
+      "description": "新增不传"
+    }
+  },
+  "手机订单": {
+    "contractDate": {
+      "type": "string",
+      "description": "签署时间"
+    },
+    "contractId": {
+      "type": "number",
+      "description": "合同id"
+    },
+    "contractNo": {
+      "type": "string",
+      "description": "合同编号"
+    },
+    "contractPerson": {
+      "type": "string",
+      "description": "签署人"
+    },
+    "couponPrice": {
+      "type": "number",
+      "description": "优惠金额"
+    },
+    "createdDate": {
+      "type": "string",
+      "description": "下单时间"
+    },
+    "id": {
+      "type": "number",
+      "description": ""
+    },
+    "mobile": {
+      "type": "string",
+      "description": "联系方式"
+    },
+    "orderNo": {
+      "type": "string",
+      "description": "订单号"
+    },
+    "paymentNo": {
+      "type": "string",
+      "description": "支付单号"
+    },
+    "paymentPrice": {
+      "type": "number",
+      "description": "实付付款金额"
+    },
+    "paymentSource": {
+      "type": "number",
+      "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+    },
+    "paymentTime": {
+      "type": "string",
+      "description": "支付时间"
+    },
+    "productImg": {
+      "type": "string",
+      "description": "商品图片"
+    },
+    "productName": {
+      "type": "string",
+      "description": "商品名称"
+    },
+    "productPrice": {
+      "type": "number",
+      "description": "商品价格, 新增不传"
+    },
+    "remark": {
+      "type": "string",
+      "description": "关闭原因"
+    },
+    "status": {
+      "type": "number",
+      "description": "订单状态"
+    }
+  },
+  "用户": {
+    "avatar": {
+      "type": "string",
+      "description": "头像"
+    },
+    "cost": {
+      "type": "number",
+      "description": "消费金额"
+    },
+    "createdDate": {
+      "type": "string",
+      "description": "注册时间"
+    },
+    "id": {
+      "type": "number",
+      "description": ""
+    },
+    "mobile": {
+      "type": "string",
+      "description": "手机号"
+    },
+    "nickname": {
+      "type": "string",
+      "description": "昵称"
+    },
+    "registerFrom": {
+      "type": "string",
+      "description": "注册方式"
+    }
+  },
+  "用户档案": {
+    "city": {
+      "type": "string",
+      "description": "市, 新增不传"
+    },
+    "district": {
+      "type": "string",
+      "description": "地区, 新增不传"
+    },
+    "edc": {
+      "type": "string",
+      "description": "预产期, 新增不传"
+    },
+    "hospital": {
+      "type": "string",
+      "description": "医院, 新增不传"
+    },
+    "id": {
+      "type": "number",
+      "description": ""
+    },
+    "idCard": {
+      "type": "string",
+      "description": "身份证"
+    },
+    "lastModifiedDate": {
+      "type": "string",
+      "description": "最后修改时间, 不传"
+    },
+    "mobile": {
+      "type": "string",
+      "description": "手机号"
+    },
+    "mobileUserId": {
+      "type": "number",
+      "description": "用户id"
+    },
+    "name": {
+      "type": "string",
+      "description": "用户名称"
+    },
+    "orderId": {
+      "type": "number",
+      "description": "订单id"
+    },
+    "orderNo": {
+      "type": "string",
+      "description": "订单号"
+    },
+    "province": {
+      "type": "string",
+      "description": "省, 新增不传"
+    },
+    "userReports": {
+      "type": "array",
+      "description": "产检报告, 不传",
+      "items": {
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "url": {
+          "type": "string",
+          "description": ""
+        },
+        "userInfoId": {
+          "type": "number",
+          "description": ""
+        }
+      }
+    }
+  },
+  "用户详情": {
+    "mobileUserDTO": {
+      "type": "object",
+      "description": "用户信息",
+      "items": {
+        "avatar": {
+          "type": "string",
+          "description": "头像"
+        },
+        "cost": {
+          "type": "number",
+          "description": "消费金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "注册时间"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "nickname": {
+          "type": "string",
+          "description": "昵称"
+        },
+        "registerFrom": {
+          "type": "string",
+          "description": "注册方式"
+        }
+      }
+    },
+    "orderMobileVOList": {
+      "type": "array",
+      "description": "用户订单",
+      "items": {
+        "contractDate": {
+          "type": "string",
+          "description": "签署时间"
+        },
+        "contractId": {
+          "type": "number",
+          "description": "合同id"
+        },
+        "contractNo": {
+          "type": "string",
+          "description": "合同编号"
+        },
+        "contractPerson": {
+          "type": "string",
+          "description": "签署人"
+        },
+        "couponPrice": {
+          "type": "number",
+          "description": "优惠金额"
+        },
+        "createdDate": {
+          "type": "string",
+          "description": "下单时间"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "mobile": {
+          "type": "string",
+          "description": "联系方式"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号"
+        },
+        "paymentNo": {
+          "type": "string",
+          "description": "支付单号"
+        },
+        "paymentPrice": {
+          "type": "number",
+          "description": "实付付款金额"
+        },
+        "paymentSource": {
+          "type": "number",
+          "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+        },
+        "paymentTime": {
+          "type": "string",
+          "description": "支付时间"
+        },
+        "productImg": {
+          "type": "string",
+          "description": "商品图片"
+        },
+        "productName": {
+          "type": "string",
+          "description": "商品名称"
+        },
+        "productPrice": {
+          "type": "number",
+          "description": "商品价格, 新增不传"
+        },
+        "remark": {
+          "type": "string",
+          "description": "关闭原因"
+        },
+        "status": {
+          "type": "number",
+          "description": "订单状态"
+        }
+      }
+    },
+    "userInfoDTOList": {
+      "type": "array",
+      "description": "用户档案",
+      "items": {
+        "city": {
+          "type": "string",
+          "description": "市, 新增不传"
+        },
+        "district": {
+          "type": "string",
+          "description": "地区, 新增不传"
+        },
+        "edc": {
+          "type": "string",
+          "description": "预产期, 新增不传"
+        },
+        "hospital": {
+          "type": "string",
+          "description": "医院, 新增不传"
+        },
+        "id": {
+          "type": "number",
+          "description": ""
+        },
+        "idCard": {
+          "type": "string",
+          "description": "身份证"
+        },
+        "lastModifiedDate": {
+          "type": "string",
+          "description": "最后修改时间, 不传"
+        },
+        "mobile": {
+          "type": "string",
+          "description": "手机号"
+        },
+        "mobileUserId": {
+          "type": "number",
+          "description": "用户id"
+        },
+        "name": {
+          "type": "string",
+          "description": "用户名称"
+        },
+        "orderId": {
+          "type": "number",
+          "description": "订单id"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "订单号"
+        },
+        "province": {
+          "type": "string",
+          "description": "省, 新增不传"
+        },
+        "userReports": {
+          "type": "array",
+          "description": "产检报告, 不传",
+          "items": {
+            "id": {
+              "type": "number",
+              "description": ""
+            },
+            "url": {
+              "type": "string",
+              "description": ""
+            },
+            "userInfoId": {
+              "type": "number",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "订单": {
+    "couponCode": {
+      "type": "string",
+      "description": "优惠码, 新增不传"
+    },
+    "couponId": {
+      "type": "number",
+      "description": "优惠券id"
+    },
+    "couponPrice": {
+      "type": "number",
+      "description": "优惠金额"
+    },
+    "createdDate": {
+      "type": "string",
+      "description": "下单时间, 新增不传"
+    },
+    "employeeId": {
+      "type": "number",
+      "description": "业务员id, 新增不传"
+    },
+    "employeeName": {
+      "type": "string",
+      "description": "业务员名称, 新增不传"
+    },
+    "id": {
+      "type": "number",
+      "description": "新增不传"
+    },
+    "mobile": {
+      "type": "string",
+      "description": "手机号，新增不传"
+    },
+    "nickname": {
+      "type": "string",
+      "description": "用户昵称，新增不传"
+    },
+    "orderNo": {
+      "type": "string",
+      "description": "订单号, 新增不传"
+    },
+    "paymentId": {
+      "type": "number",
+      "description": "付款信息id, 新增不传"
+    },
+    "paymentNo": {
+      "type": "string",
+      "description": "支付单号, 新增不传"
+    },
+    "paymentPrice": {
+      "type": "number",
+      "description": "付款金额, 新增不传"
+    },
+    "paymentSource": {
+      "type": "number",
+      "description": "付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传"
+    },
+    "paymentTime": {
+      "type": "string",
+      "description": "支付时间, 新增不传"
+    },
+    "productId": {
+      "type": "number",
+      "description": "商品id"
+    },
+    "productImg": {
+      "type": "string",
+      "description": "商品图片, 新增不传"
+    },
+    "productName": {
+      "type": "string",
+      "description": "商品名称, 新增不传"
+    },
+    "productPrice": {
+      "type": "number",
+      "description": "商品价格, 新增不传"
+    },
+    "purchaseFrom": {
+      "type": "string",
+      "description": "渠道"
+    },
+    "remark": {
+      "type": "string",
+      "description": "关闭原因, 新增不传"
+    },
+    "status": {
+      "type": "number",
+      "description": "订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭"
+    }
+  }
+}
