@@ -7,20 +7,8 @@
  * @apiName getAllEmployeesUsingGET
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} statusStr undefined
-    * @apiParam {number} status 0下线 1上线, 新增不传
-    * @apiParam {string} region 地区
-    * @apiParam {number} orderTotal 跟踪订单总数
-    * @apiParam {number} orderOngoing 跟踪中订单, 新增不传
-    * @apiParam {number} orderFinish 已完成订单, 新增不传
-    * @apiParam {string} name 名称
-    * @apiParam {string} mobile 手机号
-    * @apiParam {number} id 新增不传
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -34,10 +22,8 @@
  * @apiName createEmployeeUsingPOST
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [employeeDTO] employeeDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -51,10 +37,8 @@
  * @apiName updateEmployeeUsingPUT
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [employeeDTO] employeeDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -68,18 +52,8 @@
  * @apiName downloadExcelUsingGET
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} statusStr undefined
-    * @apiParam {number} status 0下线 1上线, 新增不传
-    * @apiParam {string} region 地区
-    * @apiParam {number} orderTotal 跟踪订单总数
-    * @apiParam {number} orderOngoing 跟踪中订单, 新增不传
-    * @apiParam {number} orderFinish 已完成订单, 新增不传
-    * @apiParam {string} name 名称
-    * @apiParam {string} mobile 手机号
-    * @apiParam {number} id 新增不传
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -93,10 +67,8 @@
  * @apiName changeStatusUsingPATCH
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [employeeDTO] employeeDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -110,10 +82,8 @@
  * @apiName getEmployeeUsingGET
  * @apiGroup 业务员管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -127,10 +97,8 @@
  * @apiName webUploadUsingPOST
  * @apiGroup 文件上传 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {array} [files] files
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -144,20 +112,8 @@
  * @apiName getAllMobileUsersUsingGET
  * @apiGroup 用户 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} registerFrom 注册方式
-    * @apiParam {string} openId undefined
-    * @apiParam {string} nickname 昵称
-    * @apiParam {string} mobile 手机号
-    * @apiParam {number} id undefined
-    * @apiParam {string} createdDate 注册时间
-    * @apiParam {string} costStr undefined
-    * @apiParam {number} cost 消费金额
-    * @apiParam {string} avatar 头像
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -171,18 +127,8 @@
  * @apiName downloadExcelUsingGET_1
  * @apiGroup 用户 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} registerFrom 注册方式
-    * @apiParam {string} openId undefined
-    * @apiParam {string} nickname 昵称
-    * @apiParam {string} mobile 手机号
-    * @apiParam {number} id undefined
-    * @apiParam {string} createdDate 注册时间
-    * @apiParam {string} costStr undefined
-    * @apiParam {number} cost 消费金额
-    * @apiParam {string} avatar 头像
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -196,10 +142,8 @@
  * @apiName getMobileUserUsingGET_1
  * @apiGroup 用户 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -213,9 +157,8 @@
  * @apiName getAllNavigationsUsingGET_1
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -229,10 +172,8 @@
  * @apiName createNavigationUsingPOST
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [navigationDTO] navigationDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -246,10 +187,8 @@
  * @apiName updateNavigationUsingPUT
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [navigationDTO] navigationDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -263,10 +202,8 @@
  * @apiName changeSequenceUsingPATCH
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [map] map
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -280,10 +217,8 @@
  * @apiName getNavigationUsingGET
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -297,10 +232,8 @@
  * @apiName deleteNavigationUsingDELETE
  * @apiGroup 导航 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -314,35 +247,8 @@
  * @apiName getAllOrdersUsingGET_1
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} status 订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭
-    * @apiParam {string} remark 关闭原因, 新增不传
-    * @apiParam {string} purchaseFrom 渠道
-    * @apiParam {number} productPrice 商品价格, 新增不传
-    * @apiParam {string} productName 商品名称, 新增不传
-    * @apiParam {string} productImg 商品图片, 新增不传
-    * @apiParam {number} productId 商品id
-    * @apiParam {string} paymentTime 支付时间, 新增不传
-    * @apiParam {number} paymentSource 付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传
-    * @apiParam {number} paymentPrice 付款金额, 新增不传
-    * @apiParam {string} paymentNo 支付单号, 新增不传
-    * @apiParam {number} paymentId 付款信息id, 新增不传
-    * @apiParam {string} orderStatus undefined
-    * @apiParam {string} orderNo 订单号, 新增不传
-    * @apiParam {string} nickname 用户昵称，新增不传
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号，新增不传
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} employeeName 业务员名称, 新增不传
-    * @apiParam {number} employeeId 业务员id, 新增不传
-    * @apiParam {string} createdDate 下单时间, 新增不传
-    * @apiParam {number} couponPrice 优惠金额
-    * @apiParam {number} couponId 优惠券id
-    * @apiParam {string} couponCode 优惠码, 新增不传
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -356,10 +262,8 @@
  * @apiName updateOrderUsingPATCH
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [orderDTO] orderDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -373,10 +277,8 @@
  * @apiName createContractUsingPOST
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [contractId] contractId
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -390,35 +292,8 @@
  * @apiName getEmergencyOrdersUsingGET
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} status 订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭
-    * @apiParam {string} remark 关闭原因, 新增不传
-    * @apiParam {string} purchaseFrom 渠道
-    * @apiParam {number} productPrice 商品价格, 新增不传
-    * @apiParam {string} productName 商品名称, 新增不传
-    * @apiParam {string} productImg 商品图片, 新增不传
-    * @apiParam {number} productId 商品id
-    * @apiParam {string} paymentTime 支付时间, 新增不传
-    * @apiParam {number} paymentSource 付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传
-    * @apiParam {number} paymentPrice 付款金额, 新增不传
-    * @apiParam {string} paymentNo 支付单号, 新增不传
-    * @apiParam {number} paymentId 付款信息id, 新增不传
-    * @apiParam {string} orderStatus undefined
-    * @apiParam {string} orderNo 订单号, 新增不传
-    * @apiParam {string} nickname 用户昵称，新增不传
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号，新增不传
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} employeeName 业务员名称, 新增不传
-    * @apiParam {number} employeeId 业务员id, 新增不传
-    * @apiParam {string} createdDate 下单时间, 新增不传
-    * @apiParam {number} couponPrice 优惠金额
-    * @apiParam {number} couponId 优惠券id
-    * @apiParam {string} couponCode 优惠码, 新增不传
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -432,33 +307,8 @@
  * @apiName downloadEmergencyExcelUsingGET
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} status 订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭
-    * @apiParam {string} remark 关闭原因, 新增不传
-    * @apiParam {string} purchaseFrom 渠道
-    * @apiParam {number} productPrice 商品价格, 新增不传
-    * @apiParam {string} productName 商品名称, 新增不传
-    * @apiParam {string} productImg 商品图片, 新增不传
-    * @apiParam {number} productId 商品id
-    * @apiParam {string} paymentTime 支付时间, 新增不传
-    * @apiParam {number} paymentSource 付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传
-    * @apiParam {number} paymentPrice 付款金额, 新增不传
-    * @apiParam {string} paymentNo 支付单号, 新增不传
-    * @apiParam {number} paymentId 付款信息id, 新增不传
-    * @apiParam {string} orderStatus undefined
-    * @apiParam {string} orderNo 订单号, 新增不传
-    * @apiParam {string} nickname 用户昵称，新增不传
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号，新增不传
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} employeeName 业务员名称, 新增不传
-    * @apiParam {number} employeeId 业务员id, 新增不传
-    * @apiParam {string} createdDate 下单时间, 新增不传
-    * @apiParam {number} couponPrice 优惠金额
-    * @apiParam {number} couponId 优惠券id
-    * @apiParam {string} couponCode 优惠码, 新增不传
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -472,10 +322,8 @@
  * @apiName setEmployeeUsingPATCH
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [orderDTO] orderDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -489,33 +337,8 @@
  * @apiName downloadExcelUsingGET_2
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} status 订单状态, 新增不传 1:待支付, 2:服务中/未审核 3:服务中/已审核 4:保障中 5:已关闭
-    * @apiParam {string} remark 关闭原因, 新增不传
-    * @apiParam {string} purchaseFrom 渠道
-    * @apiParam {number} productPrice 商品价格, 新增不传
-    * @apiParam {string} productName 商品名称, 新增不传
-    * @apiParam {string} productImg 商品图片, 新增不传
-    * @apiParam {number} productId 商品id
-    * @apiParam {string} paymentTime 支付时间, 新增不传
-    * @apiParam {number} paymentSource 付款来源, 0微信h5 1微信JSAPI 2支付宝, 新增不传
-    * @apiParam {number} paymentPrice 付款金额, 新增不传
-    * @apiParam {string} paymentNo 支付单号, 新增不传
-    * @apiParam {number} paymentId 付款信息id, 新增不传
-    * @apiParam {string} orderStatus undefined
-    * @apiParam {string} orderNo 订单号, 新增不传
-    * @apiParam {string} nickname 用户昵称，新增不传
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号，新增不传
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} employeeName 业务员名称, 新增不传
-    * @apiParam {number} employeeId 业务员id, 新增不传
-    * @apiParam {string} createdDate 下单时间, 新增不传
-    * @apiParam {number} couponPrice 优惠金额
-    * @apiParam {number} couponId 优惠券id
-    * @apiParam {string} couponCode 优惠码, 新增不传
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -529,11 +352,8 @@
  * @apiName getHomePageUsingGET
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -547,9 +367,8 @@
  * @apiName aliPayNotifyUsingPOST
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -563,10 +382,8 @@
  * @apiName testContractUsingPOST
  * @apiGroup 云合同测试 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {file} [signFile] signFile
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -580,9 +397,8 @@
  * @apiName testRealNameUsingPOST
  * @apiGroup 云合同测试 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -596,10 +412,8 @@
  * @apiName uploadSealUsingPOST
  * @apiGroup 云合同测试 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {file} [signFile] signFile
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -613,9 +427,8 @@
  * @apiName wxPayNotifyUsingPOST
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -629,10 +442,8 @@
  * @apiName updateUserInfoUsingPUT
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [userInfoDTO] userInfoDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -646,9 +457,8 @@
  * @apiName getAllRegionsUsingGET
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -662,10 +472,8 @@
  * @apiName getOrderUsingGET_1
  * @apiGroup 订单管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -679,29 +487,8 @@
  * @apiName getAllProductsUsingGET_1
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} yangMo 羊膜
-    * @apiParam {number} taiPai 胎盘
-    * @apiParam {number} storeYear 储存年限
-    * @apiParam {number} status 0:下架 1:上架 新增不传
-    * @apiParam {number} sort 新增不传
-    * @apiParam {number} qidai 脐带
-    * @apiParam {string} productPics[0].url 图片链接
-    * @apiParam {number} productPics[0].sort 新增不传
-    * @apiParam {number} productPics[0].productId 商品id
-    * @apiParam {number} productPics[0].id 新增不传
-    * @apiParam {number} price 价格
-    * @apiParam {string} name 名称
-    * @apiParam {string} lastModifiedDate 新增不传
-    * @apiParam {string} info 套餐详情
-    * @apiParam {string} imgUrl 主图
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} feature 产品特色
-    * @apiParam {string} description 服务说明
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -715,10 +502,8 @@
  * @apiName createProductUsingPOST
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [productDTO] productDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -732,10 +517,8 @@
  * @apiName updateProductUsingPUT
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [productDTO] productDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -749,10 +532,8 @@
  * @apiName changePicSequenceUsingPATCH
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [map] map
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -766,10 +547,8 @@
  * @apiName changeSequenceUsingPATCH_1
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [map] map
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -783,10 +562,8 @@
  * @apiName changeStatusUsingPATCH_1
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [productDTO] productDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -800,10 +577,8 @@
  * @apiName getProductUsingGET_1
  * @apiGroup 商品 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -817,18 +592,8 @@
  * @apiName getAllSalesUsingGET
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} status 0:下线 1:上线 新增不传
-    * @apiParam {array} products 适用产品id
-    * @apiParam {string} name 名称
-    * @apiParam {number} minusMoney 立减
-    * @apiParam {number} id 新增不传
-    * @apiParam {string} endTime 结束时间
-    * @apiParam {string} beginTime 开始时间
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -842,10 +607,8 @@
  * @apiName createSalesUsingPOST
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [salesDTO] salesDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -859,10 +622,8 @@
  * @apiName updateSalesUsingPUT
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [salesDTO] salesDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -876,22 +637,8 @@
  * @apiName getAllCouponsUsingGET
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} statusStr undefined
-    * @apiParam {number} status 0未核销 1已核销
-    * @apiParam {string} salesName 活动标题
-    * @apiParam {number} salesId undefined
-    * @apiParam {string} orderNo 订单号
-    * @apiParam {string} nickname 昵称
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号
-    * @apiParam {string} lastModifiedDate 使用时间
-    * @apiParam {number} id undefined
-    * @apiParam {string} code 兑换码
-    * @apiParam {number} page 查询页码
-    * @apiParam {number} size 分页大小
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -905,20 +652,8 @@
  * @apiName downloadExcelUsingGET_3
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {string} statusStr undefined
-    * @apiParam {number} status 0未核销 1已核销
-    * @apiParam {string} salesName 活动标题
-    * @apiParam {number} salesId undefined
-    * @apiParam {string} orderNo 订单号
-    * @apiParam {string} nickname 昵称
-    * @apiParam {number} mobileUserId undefined
-    * @apiParam {string} mobile 手机号
-    * @apiParam {string} lastModifiedDate 使用时间
-    * @apiParam {number} id undefined
-    * @apiParam {string} code 兑换码
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -932,10 +667,8 @@
  * @apiName changeStatusUsingPATCH_2
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {object} [salesDTO] salesDTO
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -949,10 +682,8 @@
  * @apiName getSalesUsingGET
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [id] id
+ * undefined
+ * undefined
  * 
  * undefined
  * 
@@ -966,11 +697,8 @@
  * @apiName generateCouponUsingPOST
  * @apiGroup 营销管理 
  * 
- * 
-    * @apiHeader {string} authorization bearer token
- * 
-    * @apiParam {number} [salesId] salesId
-    * @apiParam {number} [amount] amount
+ * undefined
+ * undefined
  * 
  * undefined
  * 
